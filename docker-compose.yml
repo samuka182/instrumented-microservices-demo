@@ -11,7 +11,7 @@ services:
       - tracing
   address-ms:
     build:
-      context: ./address
+      context: ./
     environment:
       JAEGER_SENDER_HOST: jaeger
       JAEGER_SENDER_PORT: 6831
